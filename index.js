@@ -29,6 +29,9 @@ async function checkWheather(city) {
     else if (data.weather[0].main == "Drizzle"){
         weatherIcon.src = "./Assests/drizzle.png"
     }
+    else if (data.weather[0].main == "Mist"){
+        weatherIcon.src = "./Assests/mist.png"
+    }
     
     
     
